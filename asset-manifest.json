@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextU/static/css/main.051d029a.css",
+    "main.js": "/TextU/static/js/main.ed0cd91f.js",
+    "static/js/453.ed3810f9.chunk.js": "/TextU/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/TextU/index.html",
+    "main.051d029a.css.map": "/TextU/static/css/main.051d029a.css.map",
+    "main.ed0cd91f.js.map": "/TextU/static/js/main.ed0cd91f.js.map",
+    "453.ed3810f9.chunk.js.map": "/TextU/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.051d029a.css",
+    "static/js/main.ed0cd91f.js"
+  ]
+}
