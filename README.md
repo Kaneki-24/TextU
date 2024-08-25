@@ -20,5 +20,5 @@ Customize the dark mode color by clicking on the color picker icon in the naviga
 
 ## Technologies Used
 <b>React.js:</b> A JavaScript library for building user interface.\
-Bootstrap: A popular CSS framework for responsive and mobile-first web development\
-PropTypes: A runtime type checking library for React props
+<b>Bootstrap:</b> A popular CSS framework for responsive and mobile-first web development\
+<b>PropTypes:</b> A runtime type checking library for React props
