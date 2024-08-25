@@ -117,12 +117,12 @@ export default function TextForm(props) {
                         color: props.mode==='dark' ? 'white' : 'black'}} id="textbox" rows="10" >
                 </textarea>
 
-                <button className="btn btn-outline-success btn-sm mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
-                <button className="btn btn-outline-success btn-sm mx-3" onClick={handleLoClick}>Convert to Lowercase</button>
+                <button disabled={text.length === 0} className="btn btn-outline-success btn-sm mx-1 my-1" onClick={handleUpClick}>Convert to Uppercase</button>
+                <button disabled={text.length === 0} className="btn btn-outline-success btn-sm mx-3 my-1" onClick={handleLoClick}>Convert to Lowercase</button>
 
-                <button className="btn btn-outline-danger btn-sm mx-3" onClick={handleClear}>Clear</button>
+                <button disabled={text.length === 0} className="btn btn-outline-danger btn-sm mx-3 my-1" onClick={handleClear}>Clear</button>
 
-                <button className="btn btn-outline-success btn-sm mx-2" onClick={handleExtraSpace}>Remove Extra Space</button>
+                <button disabled={text.length === 0} className="btn btn-outline-success btn-sm mx-2 my-1" onClick={handleExtraSpace}>Remove Extra Space</button>
                 
             </div>
             <div className="container my-3" style={{color: props.mode==='dark' ? 'white' : 'black'}}>
